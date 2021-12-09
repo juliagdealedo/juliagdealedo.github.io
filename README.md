@@ -4,7 +4,7 @@
 > PhD student at Universidad Autónoma de Madrid.
 
 
-![pic](profile_jga.jpeg)
+![pic](profile.png)
 
 [Twitter](https://twitter.com/juliagdealedo)
 
