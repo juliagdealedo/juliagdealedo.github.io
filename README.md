@@ -1,2 +1,3 @@
-# curious
-Set of curious scripts to (base) plot() with R very informative graphs
+# Julia G. de Aledo
+PhD student at Universidad Autónoma de Madrid.
+I am interested in plant diversity, distribution, dominance and uses across latitudinal gradients in Western Amazonia.
