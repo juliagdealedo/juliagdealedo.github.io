@@ -3,6 +3,9 @@
 
 > PhD student at Universidad Autónoma de Madrid.
 
+
+![pic](profile_jga.jpeg)
+
 [Twitter](https://twitter.com/juliagdealedo)
 
 [Tropical Ecology Lab](https://www.grupoecologiatropical.com)
