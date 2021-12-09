@@ -18,3 +18,5 @@
 
 ## About me
 I am interested in plant diversity, distribution, dominance and uses across latitudinal gradients in Western Amazonia.
+
+Contact: julia.gonzalezdealedo@uam.es
