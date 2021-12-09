@@ -1,6 +1,8 @@
+---
+title: Julia G. de Aledo
+---
 
 # Julia G. de Aledo
-
 > PhD student at Universidad Autónoma de Madrid.
 
 
