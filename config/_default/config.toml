@@ -2,10 +2,22 @@ baseURL = "https://juliagdealedo.github.io"
 languageCode = "en-US"
 title = "Julia G. de Aledo"
 
+enableEmoji = true
+enableRobotsTXT = true
+
+disableKinds = ['taxonomy', 'term']
+
+[permalinks]
+about = "about"
+projects = "/:slug/"
+
 [author]
 name = "Julia G. de Aledo"
 image = "img/author.jpg"
-bio = "A little bit about me"
+bio = "PhD student at Universidad Autónoma de Madrid."
 links = [
-  { twitter = "https://twitter.com/juliagdealedo" }
+  { twitter = "https://twitter.com/juliagdealedo" },
+  { email = "mailto:julia.gonzalezdealedo@uam.es" },
+  { linkedin = "https://linkedin.com/" },
+  { youtube = "https://youtube.com/" }
 ]

@@ -1,1 +1,26 @@
-colorScheme = "congo"
+colorScheme = "avocado"
+darkToggle = true
+description = "PhD student at Universidad Autonoma de Madrid"
+robots = "all"
+
+[homepage]
+  layout = "profile" # valid options: page, profile, custom
+  showRecent = false
+
+
+[article]
+  showDate = true
+  dateFormat = "2 January 2006"
+  showAuthor = false
+  showBreadcrumbs = true
+  showDraftLabel = true
+  editAppendPath = true
+  showHeadingAnchors = true
+  showPagination = true
+  showReadingTime = true
+  sharingLinks = ["facebook", "twitter", "reddit", "linkedin", "email"]
+
+[list]
+  showBreadcrumbs = false
+  showSummary = true
+  groupByYear = false
