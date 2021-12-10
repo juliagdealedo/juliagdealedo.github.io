@@ -1,0 +1,11 @@
+baseURL = "https://juliagdealedo.github.io"
+languageCode = "en-US"
+title = "Julia G. de Aledo"
+
+[author]
+name = "Julia G. de Aledo"
+image = "img/author.jpg"
+bio = "A little bit about me"
+links = [
+  { twitter = "https://twitter.com/juliagdealedo" }
+]
