@@ -1,4 +1,5 @@
 colorScheme = "avocado"
+darkMode = false
 darkToggle = true
 description = "PhD student at Universidad Autonoma de Madrid"
 robots = "all"
@@ -9,7 +10,7 @@ robots = "all"
 
 
 [article]
-  showDate = true
+  showDate = false
   dateFormat = "2 January 2006"
   showAuthor = false
   showBreadcrumbs = true
