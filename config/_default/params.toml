@@ -1,5 +1,5 @@
 colorScheme = "avocado"
-darkMode = false
+darkMode = "auto"
 darkToggle = true
 description = "PhD student at Universidad Autonoma de Madrid"
 robots = "all"
