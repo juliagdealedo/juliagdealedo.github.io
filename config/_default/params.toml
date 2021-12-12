@@ -18,7 +18,7 @@ robots = "all"
   editAppendPath = true
   showHeadingAnchors = true
   showPagination = true
-  showReadingTime = true
+  showReadingTime = false
   sharingLinks = ["facebook", "twitter", "reddit", "linkedin", "email"]
 
 [list]
