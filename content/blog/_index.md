@@ -21,9 +21,9 @@ Here some tips to your elevation profile in R
 
 ## Step by step 
 
-1. Download a elevation shapefile (e.g. for Spain: [IGN](http://www.ign.es/web/ign/portal))
-2. Download a line shapefile with the trajectory of your profile (e.g. from GIS)
-4. Download a world map contour countries
+1. Download DEM (e.g. for Spain: [IGN](http://www.ign.es/web/ign/portal))
+2. Download line shapefile with the trajectory of your profile (e.g. from GIS)
+4. Download world map contour countries
 3. Load all to R
 4. Convert line to points
 
@@ -56,9 +56,3 @@ Here some tips to your elevation profile in R
 
 
 Find here the [full code](https://github.com/juliagdealedo/elevation-profile)
-
-
-
-{{< lead >}}
-Things I want to share with the world.
-{{< /lead >}}
