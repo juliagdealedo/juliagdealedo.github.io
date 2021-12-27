@@ -12,7 +12,7 @@ How come Ávila is the highest capital province in Spain?!
 
 I did, and here is the result:
 
-![profile](/img/profile9.png)
+![profile](/img/profile_1.png)
 
 _Indeed, after despeñaderos, there is a big hole._
 
