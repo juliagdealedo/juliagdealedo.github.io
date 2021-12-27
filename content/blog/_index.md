@@ -17,8 +17,7 @@ I did, and here is the result:
 
 _Indeed, after despeñaderos, there is a big hole._
 
-
-Following the main tips to your elevation profile in R
+Here some tips to your elevation profile in R
 
 ## Step by step 
 
