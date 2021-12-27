@@ -2,6 +2,7 @@
 title: "Elevation profile of Spain in R"
 date: 2021-12-27T14:02:16+01:00
 draft: false
+description: "Have you ever wondered what would be of Spain if you cut it in half?"
 ---
 ## From Picos de Europa to Sierra Nevada 
 
