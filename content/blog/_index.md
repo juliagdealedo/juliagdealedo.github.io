@@ -15,7 +15,7 @@ I did, and here is the result:
 
 ![profile](/img/profile_1.png)
 
-_Indeed, after despeñaderos, there is a big hole._
+_Indeed, after Despeñaperros, there is a big hole._
 
 Here some tips to your elevation profile in R
 
