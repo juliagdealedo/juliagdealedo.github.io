@@ -3,9 +3,9 @@
 <meta http-equiv=content-language content="en-US">
 <meta name=viewport content="width=device-width,initial-scale=1">
 <meta http-equiv=x-ua-compatible content="ie=edge">
-<title>Blog &#183; Julia G. de Aledo</title>
-<meta name=title content="Blog &#183; Julia G. de Aledo">
-<meta name=description content="Things I want to share with the world.">
+<title>Elevation profile of Spain in R &#183; Julia G. de Aledo</title>
+<meta name=title content="Elevation profile of Spain in R &#183; Julia G. de Aledo">
+<meta name=description content="Have you ever wondered what would be of Spain if you cut it in half?">
 <meta name=robots content="all">
 <link rel=canonical href=https://juliagdealedo.github.io/blog/>
 <link rel=alternate type=application/rss+xml href=/blog/index.xml title="Julia G. de Aledo">
@@ -16,13 +16,13 @@
 <link rel=icon type=image/png sizes=32x32 href=/favicon-32x32.png>
 <link rel=icon type=image/png sizes=16x16 href=/favicon-16x16.png>
 <link rel=manifest href=/site.webmanifest>
-<meta property="og:title" content="Blog">
-<meta property="og:description" content="Things I want to share with the world.">
+<meta property="og:title" content="Elevation profile of Spain in R">
+<meta property="og:description" content="Have you ever wondered what would be of Spain if you cut it in half?">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://juliagdealedo.github.io/blog/">
 <meta name=twitter:card content="summary">
-<meta name=twitter:title content="Blog">
-<meta name=twitter:description content="Things I want to share with the world.">
+<meta name=twitter:title content="Elevation profile of Spain in R">
+<meta name=twitter:description content="Have you ever wondered what would be of Spain if you cut it in half?">
 <meta name=generator content="Hugo 0.90.1">
 <meta name=author content="Julia G. de Aledo">
 <link href=https://twitter.com/juliagdealedo rel=me>
@@ -46,7 +46,7 @@
 <a class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small" href=/publications/ title=Publications>Publications</a>
 </li>
 <li class="mb-1 text-right sm:mb-0 sm:mr-7 sm:last:mr-0">
-<a class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small" href=/blog/ title=Blog>Blog</a>
+<a class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small" href=/blog/ title="Elevation profile of Spain in R">Blog</a>
 </li>
 </ul>
 </nav>
@@ -54,8 +54,69 @@
 <main class=flex-grow>
 <header>
 <section class="prose dark:prose-light">
-<h1 class="mb-3 text-4xl font-extrabold text-neutral-800">Blog</h1>
-<section><p class="!mb-9 text-xl text-neutral-400 dark:text-neutral-500">
+<h1 class="mb-3 text-4xl font-extrabold text-neutral-800">Elevation profile of Spain in R</h1>
+<section><h2 id=from-picos-de-europa-to-sierra-nevada>From Picos de Europa to Sierra Nevada <a class=heading-anchor href=#from-picos-de-europa-to-sierra-nevada aria-label=Anchor>#</a></h2>
+<p>Have you ever wondered what would be of Spain if you cut it in half?
+What is there after Despeñaperros?
+Who is taller, meseta norte or meseta sur?
+How come Ávila is the highest capital province in Spain?!</p>
+<p>I did, and here is the result:</p>
+<p><img src=/img/profile_1.png alt=profile></p>
+<p><em>Indeed, after despeñaderos, there is a big hole.</em></p>
+<p>Here some tips to your elevation profile in R</p>
+<h2 id=step-by-step>Step by step <a class=heading-anchor href=#step-by-step aria-label=Anchor>#</a></h2>
+<ol>
+<li>
+<p>Download a elevation shapefile (e.g. for Spain: <a href=http://www.ign.es/web/ign/portal>IGN</a>)</p>
+</li>
+<li>
+<p>Download a line shapefile with the trajectory of your profile (e.g. from GIS)</p>
+</li>
+<li>
+<p>Download a world map contour countries</p>
+</li>
+<li>
+<p>Load all to R</p>
+</li>
+<li>
+<p>Convert line to points</p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-r data-lang=r> <span style=color:#75715e># Obtain line elevation values</span>
+ line2 <span style=color:#f92672>&lt;-</span> <span style=color:#a6e22e>spTransform</span>(line, <span style=color:#e6db74>&#34;+init=epsg:25830&#34;</span>)
+ psp <span style=color:#f92672>&lt;-</span> <span style=color:#a6e22e>as.psp.SpatialLines</span>(line2)
+ pts <span style=color:#f92672>&lt;-</span> <span style=color:#a6e22e>pointsOnLines</span>(psp, eps<span style=color:#f92672>=</span><span style=color:#ae81ff>10</span>)
+ <span style=color:#75715e># Convert to spatial points</span>
+ pts1 <span style=color:#f92672>&lt;-</span> <span style=color:#a6e22e>SpatialPoints</span>(coords <span style=color:#f92672>=</span> <span style=color:#a6e22e>cbind</span>(pts<span style=color:#f92672>$</span>x, pts<span style=color:#f92672>$</span>y), proj4string <span style=color:#f92672>=</span> <span style=color:#a6e22e>CRS</span>(<span style=color:#e6db74>&#34;+init=epsg:25830&#34;</span>))
+ pdf_data <span style=color:#f92672>&lt;-</span> <span style=color:#a6e22e>as.data.frame</span>(pts1)
+</code></pre></div></li>
+<li>
+<p>Calculate elevation and distance</p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-r data-lang=r>pdf_data<span style=color:#f92672>$</span>dem <span style=color:#f92672>&lt;-</span> raster<span style=color:#f92672>::</span><span style=color:#a6e22e>extract</span>(r0, pts1) 
+pdf_data<span style=color:#f92672>$</span>dist <span style=color:#f92672>&lt;-</span> <span style=color:#a6e22e>seq</span>(<span style=color:#ae81ff>0</span>, (<span style=color:#a6e22e>nrow</span>(pdf_data)<span style=color:#ae81ff>-1</span>)<span style=color:#f92672>*</span><span style=color:#ae81ff>10</span>, <span style=color:#ae81ff>10</span>)
+pdf_data<span style=color:#f92672>$</span>dist <span style=color:#f92672>&lt;-</span> pdf_data<span style=color:#f92672>$</span>dist<span style=color:#f92672>/</span><span style=color:#ae81ff>1000</span> <span style=color:#75715e># to km</span>
+</code></pre></div></li>
+<li>
+<p>Plot it with ggplot</p>
+<ul>
+<li>
+<p><code>geom_line</code> with MetPalettes color <a href=https://github.com/BlakeRMills/MetBrewer>Hokusai</a></p>
+</li>
+<li>
+<p><code>geom_label_repel</code> to add the labels</p>
+</li>
+<li>
+<p><code>theme_solarized</code> for background color</p>
+</li>
+<li>
+<p><code>geom_polygon</code> to plot the Spain contour</p>
+</li>
+<li>
+<p><code>inset_element</code> to add it to the previous graph</p>
+</li>
+</ul>
+</li>
+</ol>
+<p>Find here the <a href=https://github.com/juliagdealedo/elevation-profile>full code</a></p>
+<p class="!mb-9 text-xl text-neutral-400 dark:text-neutral-500">
 Things I want to share with the world.
 </p>
 </section>
