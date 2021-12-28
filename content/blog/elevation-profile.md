@@ -8,7 +8,7 @@ description: "Have you ever wondered what would be of Spain if you cut it in hal
 
 Have you ever wondered what would be of Spain if you cut it in half?
 What is there after Despeñaperros?
-Who is taller, meseta norte or meseta sur?
+Which is taller, meseta norte or meseta sur?
 How come Ávila is the highest capital province in Spain?!
 
 I did, and here is the result:
@@ -17,7 +17,7 @@ I did, and here is the result:
 
 _Indeed, after Despeñaperros, there is a big hole._
 
-Here some tips to your elevation profile in R
+Here are some tips to your elevation profile in R
 
 ## Step by step 
 
@@ -55,4 +55,4 @@ Here some tips to your elevation profile in R
    - `inset_element` to add it to the previous graph
 
 
-Find here the [full code](https://github.com/juliagdealedo/elevation-profile)
+You can find the full code [here](https://github.com/juliagdealedo/elevation-profile)
