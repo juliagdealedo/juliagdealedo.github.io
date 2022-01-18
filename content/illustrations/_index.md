@@ -1,5 +1,4 @@
 
-# Blessed be the fruits
 ---
 title: "Blessed be the fruits"
 date: 2022-1-18
@@ -8,4 +7,3 @@ description: "May nature open them"
 ---
 ![profile](/img/Strawberry.PNG)
 
-# Amazonian plant habits
