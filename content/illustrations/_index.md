@@ -11,4 +11,4 @@ description: "May nature open them"
 
 ## Plant habits diversity
 
-![profile](/img/PlantHabit.png)
+![profile](/img/PlantHabits.png)
