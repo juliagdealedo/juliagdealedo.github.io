@@ -4,4 +4,4 @@ date: 2022-1-18
 draft: false
 description: "May nature open them"
 ---
-![profile](/img/profile_1.png)
+!(/img/Strawberry.PNG)
