@@ -2,7 +2,7 @@
 title: "Illustrations"
 date: 2022-1-18
 draft: false
-description: "May nature open them"
+description: "What I think are scientific illustrations but actually they are random drawings about nature"
 ---
 
 ## Blessed be the fruits
