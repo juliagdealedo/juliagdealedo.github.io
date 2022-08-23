@@ -6,7 +6,7 @@ description: "What I think are scientific illustrations but actually they are ra
 ---
 ## Entire leaved Hedera helix 
 
-![profile](/img/Hedera.PNG)
+![profile](/img/Hedera.jpg)
 
 ## Blessed be the fruits
 
