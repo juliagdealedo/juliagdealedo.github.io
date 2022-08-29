@@ -8,7 +8,7 @@ description: "What I think are scientific illustrations but actually they are ra
 ## Araceae family
 Genera generally cultivated as houseplants. Araceae, herbaceous and tropical family with 104 genera and all sharing the spadix inflorescence
 
-![profile](/img/Araceae.jpg)
+![profile](/img/Araceae.JPG)
 
 ## Entire leaved Hedera helix 
 
