@@ -4,6 +4,12 @@ date: 2022-1-18
 draft: false
 description: "What I think are scientific illustrations but actually they are random drawings about nature"
 ---
+
+## Araceae family
+Genera generally cultivated as houseplants. Araceae, herbaceous and tropical family with 104 genera and all sharing the spadix inflorescence
+
+![profile](/img/Hedera.jpg)
+
 ## Entire leaved Hedera helix 
 
 ![profile](/img/Hedera.jpg)
