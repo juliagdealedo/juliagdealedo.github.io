@@ -12,7 +12,7 @@ Top-south maps to highlight the unrepresentation of the global south.
 For a long time I was wondering how to turn maps upside down in R. 
 Now I have discovered just to add +axis=esu to the CRS transformation: 
 
-[reversemap](/img/challenge_fin2.png)
+![reversemap](/img/challenge_fin2.png)
 
 ## Step by step 
 
@@ -45,7 +45,7 @@ Now I have discovered just to add +axis=esu to the CRS transformation:
                          fill = 'white'), rotation=180) 
     ```
 
-You can find the full code [here]([https://github.com/juliagdealedo/elevation-profile](https://github.com/juliagdealedo/30daychallenges))
+You can find the full code [here]([https://github.com/juliagdealedo/elevation-profile](https://github.com/juliagdealedo/30daychallenges])
 
 
 Why critical cartography?
