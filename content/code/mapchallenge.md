@@ -45,7 +45,7 @@ Now I have discovered just to add +axis=esu to the CRS transformation:
                          fill = 'white'), rotation=180) 
     ```
 
-You can find the full code [here] (https://github.com/juliagdealedo/30daychallenges)
+You can find the full code [here](https://github.com/juliagdealedo/30daychallenges)
 
 
 Why critical cartography?
