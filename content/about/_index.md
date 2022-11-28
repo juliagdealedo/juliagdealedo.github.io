@@ -12,11 +12,5 @@ Also, I am interested in understanding information through images (bioinformatic
 
 {{< figure src="profile.png" class="rounded w-56 overflow-hidden float-left mr-3 !mb-0 !mt-1" >}}
 
-+++
-title = "Resources"
-description = "Hugo, the world's fastest framework for building websites"
-date = "2019-02-28"
-aliases = ["about-us", "about-hugo", "contact"]
-author = "Hugo Authors"
-+++
+
 <iframe src="https://puason.shinyapps.io/Species/"></iframe>
