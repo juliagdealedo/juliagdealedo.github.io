@@ -12,4 +12,4 @@ Also, I am interested in understanding information through images (bioinformatic
 
 {{< figure src="profile.png" class="rounded w-56 overflow-hidden float-left mr-3 !mb-0 !mt-1" >}}
 
-<iframe height="400" width="100%" frameborder="no" src="https://puason.shinyapps.io/Species/"> </iframe>
+<iframe height="400" width="100%" frameborder="no" src="https://puason.shinyapps.io/Species"> </iframe>
