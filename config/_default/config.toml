@@ -21,3 +21,7 @@ links = [
   { linkedin = "https://www.linkedin.com/in/g-de-aledo-julia-99ba55140/" },
   { youtube = "https://www.youtube.com/channel/UCgnkevuKdftZyKzGHGEVNSg/featured" }
 ]
+
+
+[markup.goldmark.renderer]
+unsafe = true
