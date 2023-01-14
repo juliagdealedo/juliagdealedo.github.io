@@ -5,6 +5,11 @@ draft: false
 description: "What I think are scientific illustrations but actually they are random drawings about nature"
 ---
 
+## Arnica montana 
+Analgesic and anti-inflammatory herb widedespread across most of Europe
+
+![profile](/img/Arnica montana.png)
+
 ## Araceae family
 Genera generally cultivated as houseplants. Araceae, herbaceous and tropical family with 104 genera and all sharing the spadix inflorescence
 
