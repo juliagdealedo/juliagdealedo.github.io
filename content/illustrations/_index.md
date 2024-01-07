@@ -52,6 +52,14 @@ description: "Different visualizations"
 </style>
 
 <div class="image-grid">
+
+ <div class="image-item">
+   <img src="/img/vec_ventana.jpeg" alt="Ventana" onclick="openLightbox('/img/vec_ventana.jpeg')">
+  </div>
+  
+  <div class="image-item">
+    <img src="/img/vec_musica.jpeg" alt="House plant phylogeny" onclick="openLightbox('/img/vec_musica.jpeg')">
+  </div>
   
   <div class="image-item">
     <img src="/img/infografia_.jpg" alt="House plant phylogeny" onclick="openLightbox('/img/infografia_.jpg')">
