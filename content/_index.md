@@ -1,6 +1,6 @@
 ---
 title: "Julia G. de Aledo"
-description: "PhD student at Universidad Autónoma de Madrid."
+description: "PhD in tropical ecology and ethnobotany"
 ---
 
 Exploring latitudinal gradients in Western Amazonia 🌎🌴
