@@ -103,11 +103,11 @@ description: "Different visualizations"
   </div>
 
    <div class="image-item">
-    <img src="/img/PlantHabits.png" alt="Plant habits diversity" onclick="openLightbox('/img/Arnicamontana.png')">
+    <img src="/img/PlantHabits.png" alt="Plant habits diversity" onclick="openLightbox('/img/PlantHabits.png')">
   </div>
 
   <div class="image-item">
-    <img src="/img/Strawberry.PNG" alt="Blessed be the fruits" onclick="openLightbox('/img/Arnicamontana.png')">
+    <img src="/img/Strawberry.PNG" alt="Blessed be the fruits" onclick="openLightbox('/img/Strawberry.PNG')">
   </div>
   <!-- Repeat the structure for other images -->
 
