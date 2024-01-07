@@ -9,7 +9,7 @@ description: "Different visualizations"
   .image-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 30px;
+    gap: 16px;
   }
 
   .image-item {
@@ -22,6 +22,11 @@ description: "Different visualizations"
     height: auto;
     display: block;
     cursor: pointer; /* Add cursor pointer for clickable effect */
+     max-width: 100%; /* Ensure images don't exceed their natural size */
+  }
+
+  .image-item img.horizontal {
+    grid-column: span 2; /* Horizontal images span two columns */
   }
 
   .lightbox {
@@ -43,6 +48,7 @@ description: "Different visualizations"
     max-height: 90%;
     object-fit: contain;
   }
+
 </style>
 
 <div class="image-grid">
