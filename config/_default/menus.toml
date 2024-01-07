@@ -19,6 +19,6 @@
   weight = 40
 
 [[main]]
-  name = "Illustrations"
-  pageRef = "illustrations"
+  name = "Visualization"
+  pageRef = "Visualization"
   weight = 50
