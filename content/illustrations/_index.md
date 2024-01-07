@@ -1,32 +1,71 @@
 ---
-title: "Illustrations"
+title: "Visualizations"
 date: 2022-1-18
 draft: false
 description: "What I think are scientific illustrations but actually they are random drawings about nature"
 ---
 
-## Arnica montana 
-Analgesic and anti-inflammatory herb widedespread across most of Europe
+<style>
+  .image-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 16px;
+  }
 
-![profile](/img/Arnicamontana.png)
+  .image-item {
+    position: relative;
+    overflow: hidden;
+  }
 
-## Araceae family
-Genera generally cultivated as houseplants. Araceae, herbaceous and tropical family with 104 genera and all sharing the spadix inflorescence
+  .image-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
 
-![profile](/img/Araceae.JPG)
+  .image-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+  }
 
-## Entire leaved Hedera helix 
+  .image-item:hover .image-overlay {
+    opacity: 1;
+  }
+</style>
 
-![profile](/img/Hedera.jpg)
+<div class="image-grid">
+  <div class="image-item">
+    <img src="/img/Arnicamontana.png" alt="Arnica montana">
+    <div class="image-overlay">Arnica montana</div>
+  </div>
 
-## Blessed be the fruits
+  <div class="image-item">
+    <img src="/img/Araceae.JPG" alt="Araceae family">
+    <div class="image-overlay">Araceae family</div>
+  </div>
 
-May nature open them
+  <div class="image-item">
+    <img src="/img/Hedera.jpg" alt="Entire leaved Hedera helix">
+    <div class="image-overlay">Entire leaved Hedera helix</div>
+  </div>
 
-![profile](/img/Strawberry.PNG)
+  <div class="image-item">
+    <img src="/img/Strawberry.PNG" alt="Blessed be the fruits">
+    <div class="image-overlay">Blessed be the fruits</div>
+  </div>
 
-## Plant habits diversity
-
-Each individual different from the previous one
-
-![profile](/img/PlantHabits.png)
+  <div class="image-item">
+    <img src="/img/PlantHabits.png" alt="Plant habits diversity">
+    <div class="image-overlay">Plant habits diversity</div>
+  </div>
+</div>
