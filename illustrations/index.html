@@ -58,29 +58,19 @@
 <header>
 <section class="prose dark:prose-light">
 <h1 class="mb-3 text-4xl font-extrabold text-neutral-800">Visualizations</h1>
-<section><style>.image-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:16px}.image-item{position:relative;overflow:hidden}.image-item img{width:100%;height:auto;display:block}.image-overlay{position:absolute;top:0;bottom:0;left:0;right:0;background:rgba(0,0,0,.5);color:#fff;display:flex;align-items:center;justify-content:center;opacity:0;transition:opacity .3s ease-in-out}.image-item:hover .image-overlay{opacity:1}</style>
+<section><style>.image-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.image-item{position:relative;overflow:hidden}.image-item img{width:100%;height:auto;display:block;cursor:pointer}.lightbox{position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,.7);display:flex;justify-content:center;align-items:center;z-index:1000;display:none}.lightbox img{max-width:90%;max-height:90%;object-fit:contain}</style>
 <div class=image-grid>
 <div class=image-item>
-<img src=/img/Arnicamontana.png alt="Arnica montana">
-<div class=image-overlay>Arnica montana</div>
+<img src=/img/Arnicamontana.png alt="Arnica montana" onclick="openLightbox('/img/Arnicamontana.png')">
 </div>
 <div class=image-item>
-<img src=/img/Araceae.JPG alt="Araceae family">
-<div class=image-overlay>Araceae family</div>
-</div>
-<div class=image-item>
-<img src=/img/Hedera.jpg alt="Entire leaved Hedera helix">
-<div class=image-overlay>Entire leaved Hedera helix</div>
-</div>
-<div class=image-item>
-<img src=/img/Strawberry.PNG alt="Blessed be the fruits">
-<div class=image-overlay>Blessed be the fruits</div>
-</div>
-<div class=image-item>
-<img src=/img/PlantHabits.png alt="Plant habits diversity">
-<div class=image-overlay>Plant habits diversity</div>
+<img src=/img/Araceae.JPG alt="Araceae family" onclick="openLightbox('/img/Araceae.JPG')">
 </div>
 </div>
+<div class=lightbox id=lightbox onclick=closeLightbox()>
+<img id=lightbox-image>
+</div>
+<script>function openLightbox(a){document.getElementById('lightbox-image').src=a,document.getElementById('lightbox').style.display='flex'}function closeLightbox(){document.getElementById('lightbox').style.display='none'}</script>
 </section>
 </section>
 </header>
