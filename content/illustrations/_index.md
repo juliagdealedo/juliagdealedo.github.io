@@ -8,7 +8,7 @@ description: "What I think are scientific illustrations but actually they are ra
 <style>
   .image-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-template-columns: repeat(3, 1fr);
     gap: 16px;
   }
 
@@ -21,51 +21,54 @@ description: "What I think are scientific illustrations but actually they are ra
     width: 100%;
     height: auto;
     display: block;
+    cursor: pointer; /* Add cursor pointer for clickable effect */
   }
 
-  .image-overlay {
-    position: absolute;
+  .lightbox {
+    position: fixed;
     top: 0;
-    bottom: 0;
     left: 0;
-    right: 0;
-    background: rgba(0, 0, 0, 0.5);
-    color: #fff;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
     display: flex;
-    align-items: center;
     justify-content: center;
-    opacity: 0;
-    transition: opacity 0.3s ease-in-out;
+    align-items: center;
+    z-index: 1000;
+    display: none;
   }
 
-  .image-item:hover .image-overlay {
-    opacity: 1;
+  .lightbox img {
+    max-width: 90%;
+    max-height: 90%;
+    object-fit: contain;
   }
 </style>
 
 <div class="image-grid">
   <div class="image-item">
-    <img src="/img/Arnicamontana.png" alt="Arnica montana">
-    <div class="image-overlay">Arnica montana</div>
+    <img src="/img/Arnicamontana.png" alt="Arnica montana" onclick="openLightbox('/img/Arnicamontana.png')">
   </div>
 
   <div class="image-item">
-    <img src="/img/Araceae.JPG" alt="Araceae family">
-    <div class="image-overlay">Araceae family</div>
+    <img src="/img/Araceae.JPG" alt="Araceae family" onclick="openLightbox('/img/Araceae.JPG')">
   </div>
 
-  <div class="image-item">
-    <img src="/img/Hedera.jpg" alt="Entire leaved Hedera helix">
-    <div class="image-overlay">Entire leaved Hedera helix</div>
-  </div>
+  <!-- Repeat the structure for other images -->
 
-  <div class="image-item">
-    <img src="/img/Strawberry.PNG" alt="Blessed be the fruits">
-    <div class="image-overlay">Blessed be the fruits</div>
-  </div>
-
-  <div class="image-item">
-    <img src="/img/PlantHabits.png" alt="Plant habits diversity">
-    <div class="image-overlay">Plant habits diversity</div>
-  </div>
 </div>
+
+<div class="lightbox" id="lightbox" onclick="closeLightbox()">
+  <img id="lightbox-image">
+</div>
+
+<script>
+  function openLightbox(imagePath) {
+    document.getElementById('lightbox-image').src = imagePath;
+    document.getElementById('lightbox').style.display = 'flex';
+  }
+
+  function closeLightbox() {
+    document.getElementById('lightbox').style.display = 'none';
+  }
+</script>
