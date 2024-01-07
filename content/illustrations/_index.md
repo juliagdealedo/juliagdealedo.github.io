@@ -2,7 +2,7 @@
 title: "Visualizations"
 date: 2022-1-18
 draft: false
-description: "What I think are scientific illustrations but actually they are random drawings about nature"
+description: "Different visualizations"
 ---
 
 <style>
@@ -46,14 +46,51 @@ description: "What I think are scientific illustrations but actually they are ra
 </style>
 
 <div class="image-grid">
+  
   <div class="image-item">
-    <img src="/img/Arnicamontana.png" alt="Arnica montana" onclick="openLightbox('/img/Arnicamontana.png')">
+    <img src="/img/infografia_.jpg" alt="House plant phylogeny" onclick="openLightbox('/img/infografia_.jpg')">
   </div>
 
+
+  <div class="image-item">
+    <img src="/img/joyplot_guadarrama.png" alt="Guadarrama Joyplot" onclick="openLightbox('/img/joyplot_guadarrama.png')">
+  </div>
+
+  <div class="image-item">
+    <img src="/img/joyplot_madrid.png" alt="Madrid Joyplot" onclick="openLightbox('/img/joyplot_madrid.png')">
+  </div>
+
+  <div class="image-item">
+    <img src="/img/joypot_espejo.png" alt="Espejo Joyplot" onclick="openLightbox('/img/joypot_espejo.png')">
+  </div>
+
+
+    
+  <div class="image-item">
+    <img src="/img/Mapa_Batimetria.jpg" alt="Batimetría" onclick="openLightbox('/img/Mapa_Batimetria.jpg')">
+  </div>
+    
+  <div class="image-item">
+    <img src="/img/Mapa_elevation.png" alt="Elevation South America" onclick="openLightbox('/img/Mapa_elevation.png')">
+  </div>
+    
+  <div class="image-item">
+    <img src="/img/Mapa_forestcover.png" alt="Araceae family" onclick="openLightbox('/img/Mapa_forestcover.png')">
+  </div>
+
+  
+  
   <div class="image-item">
     <img src="/img/Araceae.JPG" alt="Araceae family" onclick="openLightbox('/img/Araceae.JPG')">
   </div>
 
+   <div class="image-item">
+    <img src="/img/PlantHabits.png" alt="Plant habits diversity" onclick="openLightbox('/img/Arnicamontana.png')">
+  </div>
+
+  <div class="image-item">
+    <img src="/img/Strawberry.PNG" alt="Blessed be the fruits" onclick="openLightbox('/img/Arnicamontana.png')">
+  </div>
   <!-- Repeat the structure for other images -->
 
 </div>
