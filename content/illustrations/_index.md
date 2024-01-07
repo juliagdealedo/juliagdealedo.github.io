@@ -5,10 +5,8 @@ draft: false
 description: "Different visualizations"
 ---
 
- <div class="image-item">
-    <img src="/img/mapa_mam.jpeg" alt="Map" onclick="openLightbox('/img/mapa_mam.jpeg')">
-  </div>
-  
+![profile](/img/mapa_mam.jpeg)
+
 <style>
   .image-grid {
     display: grid;
