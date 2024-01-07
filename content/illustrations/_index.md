@@ -6,7 +6,7 @@ description: "Different visualizations"
 ---
 
  <div class="image-item">
-    <img src="/img/mapa_mam.png" alt="Map" onclick="openLightbox('/img/mapa_mam.png')">
+    <img src="/img/mapa_mam.jpeg" alt="Map" onclick="openLightbox('/img/mapa_mam.jpeg')">
   </div>
   
 <style>
