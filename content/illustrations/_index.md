@@ -9,7 +9,7 @@ description: "Different visualizations"
   .image-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 16px;
+    gap: 30px;
   }
 
   .image-item {
