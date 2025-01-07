@@ -6,8 +6,9 @@ type: "about"
 layout: "single"
 ---
 
-Hi! :wave: In my research I am interested in plant diversity, distribution, dominance and uses across latitudinal gradients in Western Amazonia.
-Also, I am interested in understanding information through images (bioinformatics, modelling, statistics, programming, code efficiency, data visualization)
+> I am interested tropical ecology, tree species dominance and distribution, traditional uses of plants by local and indigenous communities in tropical and mediterranean systems. Stuying insect population dynamics in the Mediterranean area, focused in predicting pollinator decline.
+> I like to understand complex ecological interactions contained in data (R, modelling, statistics, programming, code efficiency) and through visualizations (illustration, design, graphs). 
+> I integrate ecological theory, strong technical skills, innovation, and collaboration to foster an open, ethical, dynamic, and creative approach to science.
 
 Contact: juliagdealedo@gmail.com
 Twitter: [juliagdealedo](https://twitter.com/juliagdealedo)
