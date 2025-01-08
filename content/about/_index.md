@@ -10,7 +10,7 @@ layout: "single"
 - I like to understand complex ecological interactions contained in data (R, modelling, statistics, programming, code efficiency) and through visualizations (illustration, design, graphs). 
 - I integrate ecological theory, strong technical skills, innovation, and collaboration to foster an open, ethical, dynamic, and creative approach to science.
 
-{{< figure src="profile.png" class="rounded  max-width:60% overflow-hidden float-left mr-2 !mb-0 !mt-1" >}}
+{{< figure src="profile.png" class="rounded  max-width:60% overflow-hidden float-left" >}}
 
 Contact: juliagdealedo@gmail.com
 Twitter: [juliagdealedo](https://twitter.com/juliagdealedo)
