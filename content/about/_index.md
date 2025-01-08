@@ -6,7 +6,7 @@ type: "about"
 layout: "single"
 ---
 
-{{< figure src="profile.png" class="rounded w-30 overflow-hidden float-left mr-3 !mb-0 !mt-1" >}}
+{{< figure src="profile.png" class="rounded w-10 overflow-hidden float-left mr-2 !mb-0 !mt-1" >}}
 
 - I am interested tropical ecology, tree species dominance and distribution, traditional uses of plants by local and indigenous communities in tropical and mediterranean systems. Stuying insect population dynamics in the Mediterranean area, focused in predicting pollinator decline.
 - I like to understand complex ecological interactions contained in data (R, modelling, statistics, programming, code efficiency) and through visualizations (illustration, design, graphs). 
