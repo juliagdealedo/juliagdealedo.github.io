@@ -13,7 +13,8 @@ layout: "single"
 {{< figure src="profile.png" class="rounded  max-width:10% overflow-hidden float-left" >}}
 
 Contact: juliagdealedo@gmail.com
-Twitter: [juliagdealedo](https://twitter.com/juliagdealedo)
-Instagram: [juliagdealedo](https://www.instagram.com/juliagdealedo/) 
+[Bluesky](https://bsky.app/profile/juliagdealedo.bsky.social)
+[Twitter](https://twitter.com/juliagdealedo)
+[Instagram](https://www.instagram.com/juliagdealedo/) 
 
 
