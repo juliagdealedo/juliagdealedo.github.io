@@ -15,6 +15,10 @@ analysis among life forms (DOMINAMA - PID2023-148212NB-I00). Funding: Ministerio
 Ciencia, Innovación y Universidades, Unión Europea. Budget: 180.000€. Call: Proyectos de
 Generación de Conocimiento. Period: 2024-2027. PI: Manuel J. Macía (UAM). Figure: work team.
 
+Revisión y actualización de los términos botánicos para la 24ª edición del Diccionario 
+de la Lengua Española. (Contrato de Asistencia Técnica con RAE, 0537-2024)
+PI: Manuel Pardo de Santayana. Budget: 60.000€
+
 Making technology work for monitoring pollinators (ANTENNA). Funding: BiodivMon programme.
 Call: Biodiversa+ and European Commission. Period: 2024-2027. PI: Ignasi Bartomeus (EBD).
 Figure: postdoctoral researcher.
