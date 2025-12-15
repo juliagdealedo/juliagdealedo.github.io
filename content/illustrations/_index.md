@@ -1,9 +1,10 @@
 ---
-title: "Visualizations"
+title: "Illustrations and designs"
 date: 2022-1-18
 draft: false
-description: "Different visualizations"
+description: "Different ways of looking at data"
 ---
+Illustrations are not updated in the website. Go to my Instagram to be updated! https://www.instagram.com/juliagdealedo/ 
 
 ![profile](/img/mapa_mam.jpeg)
 
