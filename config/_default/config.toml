@@ -13,7 +13,7 @@ projects = "/:slug/"
 
 [author]
 name = "Julia G. de Aledo"
-image = "img/author.jpg"
+image = "img/author2.jpg"
 bio = "PhD in tropical ecology and ethnobotany"
 links = [
   { email = "mailto:juliagdealedo@gmail.com" },
